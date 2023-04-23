@@ -1,4 +1,3 @@
-import { PROJECT_ID } from "@/lib/config";
 import "@/styles/globals.css";
 import { EthereumClient, w3mConnectors, w3mProvider } from "@web3modal/ethereum";
 import { Web3Modal } from "@web3modal/react";
@@ -6,6 +5,8 @@ import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
 import { WagmiConfig, configureChains, createClient } from "wagmi";
 import { goerli, mainnet } from "wagmi/chains";
+
+import { PROJECT_ID } from "@/lib/config";
 
 const chains = [mainnet, goerli];
 

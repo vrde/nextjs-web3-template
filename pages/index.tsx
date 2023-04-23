@@ -1,6 +1,7 @@
-import ConnectWallet from "@/components/ConnectWallet";
 import styles from "@/styles/Base.module.css";
 import Head from "next/head";
+
+import ConnectWallet from "@/components/ConnectWallet";
 
 export default function Home() {
   return (
